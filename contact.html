@@ -3,7 +3,7 @@
 	<title>View PDF</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="body-contact">
 	<!-- header -->
 	<div id="header" class="wrapper">
 		<div class="container">
@@ -30,6 +30,15 @@
 			
 			<!--sidebar-->
 			<div id="sidebar">
+				<div class="recent-article">
+					<h2 style="margin: 0;">Terbaru</h2>
+					<ul>
+						<li><a href="#">Title Article</a></li>
+						<li><a href="#">Title Article</a></li>
+						<li><a href="#">Title Article</a></li>
+						<li><a href="#">Title Article</a></li>
+					</ul>
+				</div>
 
 				<div class="recent-article">
 					<h2 style="margin: 0;">Fitur</h2>
@@ -38,28 +47,34 @@
 						<li><a href="watch-video-yt.html">Nonton video sisipan YouTube</a></li>
 					</ul>
 				</div>
-
-				<div class="multimedia">
-					<h2>Multimedia</h2>
-					<!-- batas -->
-					<div>
-						<video width="320" controls poster="kenshin.jpg"><source src="kenshin-final.mp4" type="video/mp4"></video>
-					</div>
-					<!-- batas -->
-					<h5>play song [ sword art online - swordland ]</h5>
-					<div>
-						<audio controls><source src="swordland.mp3" type="audio/mp3"></audio>
-					</div>
-				</div>
 			</div>
 			<!-- end sidebar -->
 
 			<!--content-->
 			<div class="content">
-				<div class="blog-content">
-					<h2 align="center" style="margin-top:0;">View PDF</h2>
-					<embed width="800" height="500" src="perbandingan-os.pdf"></embed>
-
+				<!--isi kontak-->
+				<div class="kontak-box">
+					<h1>Contact Us</h1>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Praesentium esse sunt voluptas asperiores, consequatur quia.</p>
+					<div>
+						Nama<br>
+						<input class="field-kontak" type="text" name="nama">
+					</div>
+					<div>
+						Email<br>
+						<input class="field-kontak" type="text" name="email">
+					</div>
+					<div>
+						Judul Pesan<br>
+						<input class="field-kontak" type="text" name="judul-pesan">
+					</div>
+					<div>
+						Pesan<br>
+						<textarea class="textarea-kontak"></textarea>
+					</div>
+					<div>
+						<input type="submit" name="kirim" value="Kirim">
+					</div>
 				</div>
 			</div>
 		</div>
